@@ -1,9 +1,9 @@
 
 /////////// Constants
 var apiKey = 'SGED1xrcdUiBRkdRrq6zJQ';
-var redVehiclesUrl = getQueryUrl('vehiclesbyroutes', 'routes', 'Red', apiKey); 
-var redPredictionsUrl = getQueryUrl('predictionsbyroutes', 'routes', 'Red', apiKey);
-var redStopsUrl = getQueryUrl('stopsbyroute', 'route', 'Red', apiKey); 
+var redVehiclesUrl = getQueryUrl('vehiclesbyroutes', 'routes', 'Orange', apiKey); 
+var redPredictionsUrl = getQueryUrl('predictionsbyroutes', 'routes', 'Orange', apiKey);
+var redStopsUrl = getQueryUrl('stopsbyroute', 'route', 'Orange', apiKey); 
 
 /////////// Vars initialized asynchronously
 var vehicles = [];
